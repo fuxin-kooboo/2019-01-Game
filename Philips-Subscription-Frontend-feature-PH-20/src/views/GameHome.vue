@@ -1,7 +1,7 @@
 <template>
   <div class="GameHome">
     <div class="GameHome_body">
-      222
+      <img src="../assets/images/blur-layer.png" alt="" class="game_pictures">
       <div class="content">
       </div>
 
@@ -125,6 +125,11 @@
       border: .01rem #b3b3b3 dashed;
       margin: .2rem 0;
       border-radius: .05rem;
+    }
+
+    .game_picture {
+      width: 59%;
+      margin-left: 20.2%;
     }
   }
 }
