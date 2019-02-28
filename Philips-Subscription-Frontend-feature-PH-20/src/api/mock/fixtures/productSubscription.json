@@ -1,0 +1,24 @@
+{
+  "productSubscription": [{
+      "id": "24267ry2rwefhjfgeuy37rryiuwyriwuehdwdhw",
+      "image": "account-product.png",
+      "name": "Lumea Prestige Try&Bye",
+      "subName": "Start date:21/12/2017",
+      "price": ["€39", "95"]
+    },
+    {
+      "id": "24267ry2rwefhjfgeuy37rryiuwyriwuehdwdhw2",
+      "image": "account-product.png",
+      "name": "Lumea Prestige Try&Bye",
+      "subName": "Start date:21/12/2017",
+      "price": ["€39", "95"]
+    },
+    {
+      "id": "24267ry2rwefhjfgeuy37rryiuwyriwuehdwdhw3",
+      "image": "account-product.png",
+      "name": "Lumea Prestige Try&Bye",
+      "subName": "Start date:21/12/2017",
+      "price": ["€39", "95"]
+    }
+  ]
+}

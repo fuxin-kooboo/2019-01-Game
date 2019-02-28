@@ -1,0 +1,29 @@
+.icon {
+  &.icon-password-eye,
+  &.icon-password-eye-pink {
+    width: .3rem;
+    height: .16rem;
+  }
+
+  &.icon-tick {
+    width: .2rem;
+    height: .18rem;
+  }
+
+  &.icon-tick-red {
+    width: .4rem;
+    height: .4rem;
+  }
+}
+
+.socialIcon {
+  .icon {
+    color: $white;
+    margin-right: .12rem;
+
+    @include media(mobile) {
+      width: .3rem;
+      height: .3rem;
+    }
+  }
+}

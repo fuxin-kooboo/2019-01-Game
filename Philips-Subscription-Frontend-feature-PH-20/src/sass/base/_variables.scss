@@ -1,0 +1,79 @@
+// Color
+$white:#fff !default;
+$pink:#e04971 !default;
+$pink-deeper: #ec4371 !default;
+$font-gray:#4a4a4a !default;
+$font-black: #252525 !default;
+$input-placeholder: #9b9b9b !default;
+$border-color: #d8d8d8 !default;
+$body-color:$font-black !default;
+$body-bg:#fff !default;
+$blue: #0066a1 !default;
+$link-color: $blue !default;
+$error-color: $pink !default;
+$block-bg: #f2f2f2 !default;
+$purple: #662046 !default;
+
+//icon
+$icon-border-color: $font-gray !default;
+
+// Font
+$font-size-root: (100px / 16px) * 100%;
+$font-size-base: .14rem;
+$line-height-base: 1.2;
+$font-family-base: "centralesans", sans-serif;
+$font-weight: 400;
+
+// Grid
+$grid-columns: 12 !default;
+$container-width:9.9rem;
+$grid-gutter-width:.24rem;
+$grid-wide-gutter-width:.64rem;
+$container-padding: .3rem !default;
+
+// Z-index master list
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+$zindex-dropdown: 1000 !default;
+$zindex-sticky: 1020 !default;
+$zindex-fixed: 1030 !default;
+$zindex-modal-backdrop: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+$sizes: map-merge(
+  (
+    20: 20%,
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%
+  ),
+  $sizes
+);
+
+$bezier: cubic-bezier(.22, .44, 0, 1);
+$duration: 1.2s;
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px
+) !default;
+
+// responsive breakpoint
+$breakpoints: (
+  mobile: '(max-width: 767px)',
+  tablet: '(min-width: 768px)',
+  desktop: '(min-width: 1024px)',
+  xlarge: '(min-width: 1200px)',
+  onlyTablet: '(min-width: 768px) and (max-width: 1023px)',
+  noDesktop: '(max-width: 1023px)'
+) !default;

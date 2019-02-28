@@ -1,0 +1,53 @@
+
+.Form_label {
+  display: inline-block;
+  font-weight: 400;
+  font-size: .12rem;
+
+  .link {
+    font-size: inherit;
+    margin-left: .06rem;
+  }
+}
+
+.Form_control {
+  display: block;
+  width: 100%;
+  color: $font-black;
+  padding: .1rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  font-weight: 500;
+  font-size: .16rem;
+  line-height: .23rem;
+  border-style: solid;
+  border-width: 0 0 .02rem 0;
+  border-color: $border-color;
+
+  @include placeholder($input-placeholder, 500);
+}
+
+.Form_group {
+  margin-bottom: .28rem;
+  position: relative;
+
+  &Password {
+    position: relative;
+  }
+}
+
+.Form_tip {
+  font-size: .14rem;
+  color: $font-black;
+  margin-bottom: .2rem;
+
+  .link {
+    font-size: inherit;
+  }
+}
+
+.Form_group.error {
+  .Form_control {
+    border-color: $error-color;
+  }
+}

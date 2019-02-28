@@ -1,0 +1,15 @@
+{
+  "shippingAddress": {
+    "countryCode": "Nl",
+    "postalCode": "123456",
+    "houseNumber": "123456",
+    "addition": "Nl"
+  },
+  "hasBillingAddress": true,
+  "billingAddress": {
+    "countryCode": "NA",
+    "postalCode": "654321",
+    "houseNumber": "654321",
+    "addition": "NA"
+  }
+}

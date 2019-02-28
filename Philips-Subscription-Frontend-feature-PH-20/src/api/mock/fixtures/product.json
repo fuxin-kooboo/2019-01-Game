@@ -1,0 +1,15 @@
+{
+  "product": {
+    "id": "1a2e628137ad4d749d91e65c1066bca3",
+    "name": "Lumea prestige",
+    "image": "product.png",
+    "subName": "BRI956/00",
+    "price": "39.95",
+    "ups": ["A brand new Lumea device","Easy monthly payment plan","Cancel at any time"],
+    "relevantTips":[
+      "Pretreat your skin by shaving, waxing or epilating using Lumea for more efficacy",
+      "Clean your skin before a Lumea treatment by removing remaining hairs from your skin",
+      "Dry your skin before a Lumea treatment from any remaining liquids, lotions, soap or wax Pre-treatment"
+    ]
+  }
+}

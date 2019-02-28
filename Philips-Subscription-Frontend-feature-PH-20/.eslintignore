@@ -1,0 +1,3 @@
+deploy/server.js
+tests/unit/coverage/**/*.js
+tests/e2e/results/**/*.js

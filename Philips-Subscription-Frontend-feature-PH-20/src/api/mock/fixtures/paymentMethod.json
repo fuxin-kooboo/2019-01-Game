@@ -1,0 +1,37 @@
+[
+  {
+    "code": "Adyen.iDeal",
+    "name": "iDeal",
+    "provider": "Adyen",
+    "logoUrl": "ideal.svg",
+    "isCreditCard": false
+  },
+  {
+    "code": "PayPal.PayPal",
+    "name": "PayPal",
+    "provider": "PayPal",
+    "logoUrl": "paypal.svg",
+    "isCreditCard": false
+  },
+  {
+    "code": "Adyen.Visa",
+    "name": "Visa",
+    "provider": "Adyen",
+    "logoUrl": "visa.svg",
+    "isCreditCard": true
+  },
+  {
+    "code": "Adyen.MasterCard",
+    "name": "MasterCard",
+    "provider": "Adyen",
+    "logoUrl": "mastercard.svg",
+    "isCreditCard": true
+  },
+  {
+    "code": "Adyen.Amex",
+    "name": "AmericanExpress",
+    "provider": "Adyen",
+    "logoUrl": "amex.svg",
+    "isCreditCard": true
+  }
+]

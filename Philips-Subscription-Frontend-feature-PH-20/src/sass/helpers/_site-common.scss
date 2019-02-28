@@ -1,0 +1,40 @@
+.title {
+  font-size: .24rem;
+  line-height: .31rem;
+  font-weight: 700;
+
+  &-bold {
+    font-weight: 700;
+  }
+
+  &-small {
+    font-size: .17rem;
+    line-height: .25rem;
+  }
+}
+
+.link {
+  font-size: .12rem;
+  color: $link-color;
+}
+
+.tip-error {
+  color: $error-color;
+  padding: .05rem .1rem;
+}
+
+//app-notification
+.app-notification {
+  margin-top: .5rem;
+
+  .notification-title {
+    font-size: .16rem;
+    text-align: center;
+  }
+
+  .notification-content {
+    font-size: .14rem;
+    text-align: center;
+  }
+}
+
